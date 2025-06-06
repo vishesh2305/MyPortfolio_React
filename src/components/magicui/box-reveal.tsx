@@ -2,6 +2,7 @@
 
 import { motion, useAnimation, useInView } from "motion/react";
 import { useEffect, useRef } from "react";
+import { JSX } from "react/jsx-runtime";
 
 interface BoxRevealProps {
   children: JSX.Element;

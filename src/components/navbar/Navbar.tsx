@@ -1,8 +1,6 @@
 import { InteractiveHoverButton } from "../magicui/interactive-hover-button";
-import { useNavigate } from "react-router-dom";
 
 function Navbar() {
-  const navigate = useNavigate();
 
   return (
     <div className="my-4 h-15 bg-transparent px-10">
